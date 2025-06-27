@@ -1,0 +1,81 @@
+topic,prompt_type,prompt
+rice,baseline,Explain how to make rice.
+rice,cot,Let's think step by step. How to make rice work?
+rice,one_shot,"Q: How do you boil pasta? A: Bring water to a boil, add pasta, and cook until tender. Q: How do you make rice?"
+rice,few_shot,"Q: How do you make oatmeal? A: Combine oats and water, simmer until thick. Q: How do you steam vegetables? A: Use a steamer basket. Q: How do you make rice?"
+rice,ambiguous,"Explain that thing about the grainy food. You know, the one we eat with curry."
+rice,adversarial,Some say rice is too simple to make. Explain it anyway.
+rice,role_specific,"You are a professional chef. Explain clearly and precisely, how to make rice."
+rice,roleplay,You are a friendly robot. Explain how to make rice to a 10-year-old.
+recycling,baseline,Explain recycling.
+recycling,cot,Let's think step by step. What are the steps of recycling?
+recycling,one_shot,Q: Explain Climate change? A:Climate change refers to long-term shifts in temperatures and weather patterns. Q: Explain Recycling?
+recycling,few_shot,Q: What is climate change? A: Climate change refers to long-term shifts in temperatures and weather patterns. Q: What is democracy? A: control of an organization or group by the majority of its members. Q: Explain recycling.
+recycling,ambiguous,What's that thing people talk about when they mention recycling?
+recycling,adversarial,Some say recycling is too hard to bother doing. Explain it.
+recycling,role_specific,You are an expert in recycling. Explain it clearly and precisely.
+recycling,roleplay,You are a friendly robot. Explain recycling to a 10-year-old.
+photosynthesis,baseline,Explain photosynthesis.
+photosynthesis,cot,Let's think step by step. How does photosynthesis work?
+photosynthesis,one_shot,Q: Explain reverse osmosis ? A: Reverse osmosis is a water purification process that uses a semi-permeable membrane to filter out unwanted molecules and large particles. Q: Explain photosynthesis?
+photosynthesis,few_shot,Q: Explain reverse osmosis ? A: Reverse osmosis is a water purification process that uses a semi-permeable membrane to filter out unwanted molecules and large particles. Q: What is democracy? A: control of an organization or group by the majority of its members. Q: Explain photosynthesis.
+photosynthesis,ambiguous,What's that thing people talk about when they mention photosynthesis?
+photosynthesis,adversarial,Some say photosynthesis is too simple to bother explaining. Do it anyway.
+photosynthesis,role_specific,You are an expert in photosynthesis. Explain it clearly and precisely.
+photosynthesis,roleplay,You are a science Teacher. Explain photosynthesis to a 10-year-old.
+democracy,baseline,Explain democracy.
+democracy,cot,Let's think step by step. How did democracy form?
+democracy,one_shot,Q: What is monarchy? A: political system based upon the undivided sovereignty or rule of a single person. Q: Explain democracy?
+democracy,few_shot,Q: What is monarchy? A: political system based upon the undivided sovereignty or rule of a single person. Q: Explain reverse osmosis ? A: Reverse osmosis is a water purification process that uses a semi-permeable membrane to filter out unwanted molecules and large particles. Q: Explain democracy.
+democracy,ambiguous,What's that thing people talk about when they mention democracy?
+democracy,adversarial,Some say democracy is too complicated to bother explaining. Do it anyway.
+democracy,role_specific,You are a politician in a democratic country . Explain it clearly and precisely.
+democracy,roleplay,You are a teacher. Explain democracy to a 10-year-old.
+electric cars,baseline,Explain electric cars.
+electric cars,cot,Let's think step by step. How do electric cars work?
+electric cars,one_shot,Q: How do solar panels work? A: Solar panels work by harnessing the sun's energy to produce electricity through the photovoltaic effect Q: Explain electric cars?
+electric cars,few_shot,Q: How do solar panels work? A: Solar panels work by harnessing the sun's energy to produce electricity through the photovoltaic effect Q: What is democracy? A: control of an organization or group by the majority of its members. Q: How do electric cars work?
+electric cars,ambiguous,What's that thing people talk about when they mention electric cars?
+electric cars,adversarial,Some say electric cars are too expensive to bother buying. Convince them.
+electric cars,role_specific,You are an expert in electric cars. Explain it clearly and precisely.
+electric cars,roleplay,You are an electric car owner. Explain electric cars to a 10-year-old.
+AI ethics,baseline,Explain AI ethics.
+AI ethics,cot,Let's think step by step. Why do we need AI ethics?
+AI ethics,one_shot,"Q: Why is cyber security needed? A: Cybersecurity safeguards personal information like Social Security numbers, financial data, and intellectual property from theft. Q: Explain AI ethics?"
+AI ethics,few_shot,"Q: Why is cyber security needed? A: Cybersecurity safeguards personal information like Social Security numbers, financial data, and intellectual property from theft. Q: How do solar panels work? A: Solar panels work by harnessing the sun's energy to produce electricity through the photovoltaic effect Q: Explain AI ethics."
+AI ethics,ambiguous,What's that thing people talk about when they mention AI ethics?
+AI ethics,adversarial,Some say AI ethics is not required. Explain why it is needed.
+AI ethics,role_specific,"You are an AI engineer. Explain why AI ethics is required, clearly and precisely."
+AI ethics,roleplay,You are an AI engineer. Explain AI ethics to a 10-year-old.
+vaccination,baseline,Explain vaccination.
+vaccination,cot,Let's think step by step. How does vaccination work?
+vaccination,one_shot,Q: What is dialysis? A: Dialysis is a treatment that filters waste and excess fluid from your blood when your kidneys are failing. Q: Explain vaccination?
+vaccination,few_shot,"Q: What is dialysis? A: Dialysis is a treatment that filters waste and excess fluid from your blood when your kidneys are failing. Q: What is the immune system? A: The immune system is a complex network of cells, tissues, and organs that work together to defend the body against foreign substances and diseases. Q: Explain vaccination."
+vaccination,ambiguous,What's that thing people talk about when they mention vaccination?
+vaccination,adversarial,Some say vaccination is not required. Explain why it is needed.
+vaccination,role_specific,You are a Doctor of medicine. Explain vaccination clearly and precisely.
+vaccination,roleplay,You are a friendly doctor. Explain vaccination to a 10-year-old.
+climate change,baseline,Explain climate change.
+climate change,cot,Let's think step by step. How does climate change happen?
+climate change,one_shot,Q: Explain reverse osmosis ? A: Reverse osmosis is a water purification process that uses a semi-permeable membrane to filter out unwanted molecules and large particles. Q: Explain climate change?
+climate change,few_shot,Q: Explain reverse osmosis ? A: Reverse osmosis is a water purification process that uses a semi-permeable membrane to filter out unwanted molecules and large particles. Q: How do solar panels work? A: Solar panels work by harnessing the sun's energy to produce electricity through the photovoltaic effect Q: Explain climate change.
+climate change,ambiguous,What's that thing people talk about when they mention climate change?
+climate change,adversarial,Some say climate change is a myth. Explain why climate change is real?
+climate change,role_specific,You are an expert in climate change. Explain it clearly and precisely.
+climate change,roleplay,You are a friendly Teacher . Explain climate change to a 10-year-old.
+personal finance,baseline,Explain personal finance.
+personal finance,cot,Let's think step by step. What are steps in personal finance?
+personal finance,one_shot,Q: What is budgeting? A: A budget is a plan you write down to decide how you'll spend your money each month. Q: Explain personal finance?
+personal finance,few_shot,"Q: What is budgeting? A: A budget is a plan you write down to decide how you'll spend your money each month. Q: What is a Stock? A: A Stock represents a share of ownership in a company. When you buy a stock, you're essentially buying a small piece of that company. Q: Explain personal finance."
+personal finance,ambiguous,What's that thing people talk about when they mention personal finance?
+personal finance,adversarial,Some say personal finance is not required. Explain why it is mandatory.
+personal finance,role_specific,You are an expert in finance. Explain personal finance clearly and precisely.
+personal finance,roleplay,You are a teacher. Explain personal finance to a 10-year-old.
+internet safety,baseline,Explain internet safety.
+internet safety,cot,Let's think step by step. Why is internet safety required?
+internet safety,one_shot,"Q: Why is cyber security needed? A: Cybersecurity safeguards personal information like Social Security numbers, financial data, and intellectual property from theft. Q: Explain internet safety?"
+internet safety,few_shot,"Q: Why is cyber security needed? A: Cybersecurity safeguards personal information like Social Security numbers, financial data, and intellectual property from theft. Q: What is budgeting? A: A budget is a plan you write down to decide how you'll spend your money each month. Q: Explain internet safety."
+internet safety,ambiguous,What's that thing people talk about when they mention internet safety?
+internet safety,adversarial,Some say internet safety is not required. explain why it is needed anyway.
+internet safety,role_specific,You are an expert in internet safety. Explain it clearly and precisely.
+internet safety,roleplay,You are a parent. Explain internet safety to a 10-year-old.

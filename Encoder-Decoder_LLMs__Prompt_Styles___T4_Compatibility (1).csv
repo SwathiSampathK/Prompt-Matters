@@ -1,0 +1,16 @@
+Model Name,Family,Size,Instruction Tuned,Best Prompt Style,T4 Compatible
+t5-small,T5,60M,No,"Plain, short-form",Yes
+t5-base,T5,220M,No,"Plain, summarization",Yes
+google/flan-t5-small,Flan-T5,80M,Yes,"Instruction, reasoning",Yes
+google/flan-t5-large,Flan-T5,770M,Yes,"Instruction, CoT",Yes
+google/flan-t5-xl,Flan-T5,3B,Yes,Multi-step reasoning,With quantization
+google/t5-efficient-small,T5,~40M,No,"Fast, simple prompts",Yes
+facebook/bart-base,BART,140M,No,"General, summarization",Yes
+facebook/bart-large-cnn,BART,400M,No,Summarization,Yes
+yjernite/bart_eli5,BART,400M,Yes,Explain like I’m 5,Yes
+sshleifer/distilbart-cnn-12-6,DistilBART,300M,No,Short summarization,Yes
+bigscience/T0_3B,T0,3B,Yes,"Instruction, zero-shot",With quantization
+bigscience/T0pp,T0,11B,Yes,Step-by-step reasoning,With quantization + offloading
+google/pegasus-xsum,Pegasus,568M,No,Headline-style summarization,Yes
+google/pegasus-cnn_dailymail,Pegasus,568M,No,News summarization,Yes
+allenai/led-base-16384,LED,162M,No,Long-doc summarization,Yes
