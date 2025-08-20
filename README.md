@@ -40,9 +40,10 @@ A unified pipeline for probing, explaining, and visualizing how prompt design sh
   - Role-consistency scores  
 
 - **Visualization**  
-  - Static dashboards  
-  - Animated GIFs showing attention + IG across prompt styles  
-
+  - Static dashboards
+  - 
+  - Animated GIFs showing attention + IG across prompt styles
+    ![Animated GIFs](Images/attention_ig_cot.gif)
 ## 4. Analyze Metrics
 
 Open `results_with_rag.csv` in your tool of choice (Pandas, Excel, etc.) to compare:
@@ -50,10 +51,12 @@ Open `results_with_rag.csv` in your tool of choice (Pandas, Excel, etc.) to comp
 - **BLEURT**
 - **BERTScore**
 - **Perplexity**
-- **SBERT-cosine faithfulness**
-- **TruthfulQA hallucination rates**
-
+- **BLUE**
+- **BLUE-4**
+- **ROUGE**
+- **METEOR**
 across all prompt styles.
+![Output](Images/output.png)
 
 ---
 
