@@ -41,7 +41,7 @@ A unified pipeline for probing, explaining, and visualizing how prompt design sh
 
 - **Visualization**  
   - Static dashboards
-  - 
+    ![Static dashboards](Images/baseline.png)
   - Animated GIFs showing attention + IG across prompt styles
     ![Animated GIFs](Images/attention_ig_cot.gif)
 ## 4. Analyze Metrics
